@@ -824,9 +824,11 @@
 	    </dict>
 	    <dict>
 	        <key>RunKind</key>
-	        <string>com.barebones.bblm.variable</string>
+	        <string>com.barebones.bblm.preprocessor</string>
 	        <key>Keywords</key>
 	        <array>
+	            <string>import</string>
+	            <string>from</string>
 	        </array>
 	    </dict>
 	</array>

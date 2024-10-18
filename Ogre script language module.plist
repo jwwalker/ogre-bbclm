@@ -857,7 +857,7 @@
 		<key>Function Pattern</key>
 		<string><![CDATA[
 (?x:
-	(?:compositor_node|compositor_node_shadow|target|workspace|material|particle_system|(?P<FP>fragment_program))\s+
+	(?:compositor_node|compositor_node_shadow|target|workspace|material|particle_system|fragment_program_ref|(?P<FP>fragment_program))\s+
 	(?P<function_name>[[:alnum:]_/]+)
 	(?:\s+:\s+[[:alnum:]_/]+)?
 	(?(<FP>)\s+(?:unified|metal|glsl|glslvk|hlsl))

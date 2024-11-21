@@ -861,7 +861,7 @@
 	(?:compositor_node|compositor_node_shadow|target|workspace|material|particle_system|
 		texture_unit|fragment_program_ref|(?P<FP>fragment_program))\s+
 	# function name
-	(?P<function_name>[[:alnum:]_/]+)
+	(?P<function_name>[[:alnum:]_/-]+)
 	# in fragment_program case, a language keyword
 	(?(<FP>)\s+(?:unified|metal|glsl|glslvk|hlsl))
 	# optional colon followed by name, for inheritance
